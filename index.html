@@ -1,0 +1,51 @@
+<html>
+
+	<head>
+		<title>Good</title>
+		<link rel="stylesheet" type="text/css" href="mystyle.css" />
+		<script src="cie.js" type="text/javascript"></script>
+		<script src="jquery-3.2.1.min.js" type="text/javascript"></script>
+		
+		<style>
+			h2{
+				color:yellow;
+			}
+			.textred{
+				color:red;
+			}
+			.textblue{
+				color:blue;
+			}
+		</style>
+		
+		
+		<script>
+			var i = 0;
+			function changeName(){
+				$("h1,h2,h3").text("Good " + i);
+				i++;
+			}
+		</script>
+	</head>
+
+	<body>
+		<h1 id = "cieh1"  > Kitpol Tansakul </h1>
+		
+		<h2 class = "textred" onclick="changeName()"> KMITL.1 </h2>
+		<h2> KMITL.2 </h2>
+		<h2> KMITL.3 </h2>
+		<h2 onclick="alert('hi');"> KMITL.4.1 </h2>
+		<h2 onclick="myAlert();"> KMITL.4.2 </h2>
+		<hr/>
+		ICE <br/>
+		Fah
+		<strong>Hello</strong> world
+		A<span style="color:red">Branch</span><div style="color:green">C</div>
+		<img src="hf.jpg" width="100px"/>
+		<img src="gf.jpg" width="20%"/>
+		<a target="_blank" href="http://youtube.com">youtube</a>
+		<a target="_blank" href="http://youtube.com"><img src="hf.jpg " width="20%"/></a>
+		<br/>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/om-D4Y3ZUm0" frameborder="0" allowfullscreen></iframe>
+	</body>
+</html>
